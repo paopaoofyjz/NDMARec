@@ -1,0 +1,33 @@
+{
+  "data_path":"./data/",
+  "d_model": 32,
+  "d_output": 1024,
+  "gen_hidden1": 1024,
+  "gen_hidden2": 512,
+  "gen_hidden3": 1024,
+  "dis_hidden1": 512,
+  "dis_hidden2": 1024,
+  "n_heads": 8,
+  "n_layers": 1,
+  "d_k": 16,
+  "d_v": 16,
+  "d_ff": 2048,
+
+  "txt_d_model":32,
+  "txt_n_heads":8,
+  "txt_n_layers":2,
+  "txt_d_k":8,
+  "txt_d_v":8,
+  "txt_d_ff":2048,
+
+  "cuda": 0,
+  "epochs": 300,
+  "optim": "Adam",
+
+  "batch_size": 64,
+  "learning_rate": [0.00005, 0.00005, 0.00005],
+  "weight_decay": [0.0003, 0.0003, 0.0001],
+
+  "dropout": 0.5,
+  "test": 1
+}
